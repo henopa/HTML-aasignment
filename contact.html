@@ -1,0 +1,126 @@
+<!--Onyeaghala Opara -->
+<!--assignment 2-->
+<!--this is the document type declaration-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta name="keywords" content="richest man Nigeria , popular, famous"
+    <meta name="description" content="this webpage is about the richest man in Nigeria contact page">
+    <meta name="viewpiont"  content ="width=device-width,initial-scale=1">
+   <style>
+        /*h1 element selector*/
+        h1{
+            color : darkblue; /* Set text color to dark blue */
+        }
+    </style>
+   
+    <!--link css files. CSS will be applied from top to bottom-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--This is embedded css applied after the external css-->
+     <style>
+        /*h1 element selector*/
+        h1{
+            color : pink; /* Set text color to pink */
+        }
+   </style>
+ 
+    <!--Define a title for your HTML document and a title in the browser toolbar-->
+    <!-- imporatnat for SEO + Accessibility-->
+    <title>Contact Us</title>    
+</head>
+<body >
+    <!--this is the semantic header element that defines the body's header-->   
+    <header>
+        <!--this the most importmant heading element-->
+        <!--this element has a class attribute-->
+        <!--this element has an id  attribute-->
+        <!--this is inline css for the h1 element-->
+        <!--this is inline css for the h1 element-->
+        <h1 id="header-heading" class="headings" style="color:red;">
+            <!--This is a span element for inline grouping-->
+            <span id="span-h">Contact</span> Us
+
+        </h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li id="home"><a href="index.html">Home</a></li>
+            <li id="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+     <!--this is the semantic main element that defines the body's main--> 
+    <main>
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">First name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your first name" required autofocus><br>
+                <label for="name">Last name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your last name" required autofocus><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required><br>
+                <label for="birthdate">Birthdate:</label><br>
+                <input type="date" id="birthdate" name="birthdate" required><br>
+                <label for="color">Choose a favorite color:</label><br>
+                <input type="color" id="color" name="color" required><br>
+                <label for="country">Country of Residence:</label><br>
+                <select id="country" name="country" required>
+                    <option value="nigeria" selected>Nigeria</option>
+                    
+                </select><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+     <!--Aside-->
+     <aside>
+        <h3> FAQs </h3>
+        <table style="width:100%">
+        <tr>
+            <th>Question</th><th>Answer</th>
+        </tr>
+        <tr>
+            <th>How do I become a billionaire?</th><th>Put in the  work</th>
+        </tr>
+        <tr>
+            <th>Did Dangote inherit wealth?</th><th>Although his family is rich, he aslo worked hard</th>
+        </tr>
+        <tr>
+            <th>Does Dangote have dual citizenship?</th><th>This is not yet publicly known</th>
+        </tr>
+        </table>
+        <h3> External Links </h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=hl4dZosppFM&pp=ygUZYWxpa28gZGFuZ290ZSBiaWxsIGdhdGVzIA%3D%3D" target="_blank">Bill Gates and Dangote visits President Tinubu</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://www.dangote.com/news/" target="_blank">Dangote News</a></li>
+        </ul>
+        <h3>Link to internal source on page</h3>
+        <a href="#section1">Examples of HTML Elements</a>
+        <h3>You can also resch us</h3>
+        <a href="mailto:oopara1195@conestogac.on.ca">Send us an email</a>
+        <h3>Call us </h3>
+        <a href="tel:519-555-8787">Contact helpdesk</a>
+        <h3>Read our list of events</h3>
+        <a href="pdf/Assignment 2 HTML CSS .pdf" target="_blank">2024 assignment timetable</a>
+           
+           
+    </aside>
+    <footer>
+        <p>&copy; Onyeaghala Opara 2024</p>
+
+    </footer>
+
+
+   
+
+
+    
+
+    
+</body>
+</html>

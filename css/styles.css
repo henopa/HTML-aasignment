@@ -1,0 +1,241 @@
+header, main section {
+    text-align: center;
+}
+
+html{
+
+
+    font: 40px ;
+}
+
+h1, h2{
+    font-variant: small-caps;
+}
+
+figcaption{
+    
+    font-family: small-caps;
+    font-size: 0.7rem; 
+
+}
+
+q{
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.25rem;
+}
+
+footer p{
+    font-size: 0.7rem;
+}
+
+body{
+    width: 85%;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+
+main section {
+    text-align: center;
+    padding: 11px; 
+}
+
+
+blockquote#bio {
+    text-align: left;
+}
+
+
+img.main-section-figure {
+    padding: 11px; 
+}
+
+
+figure.main-section-figure {
+    padding: 11px; 
+    margin: 20px 0; 
+    text-align: center;
+}
+
+
+blockquote#quote q {
+    padding: 10px; 
+}
+
+iframe {
+    padding: 10px;
+}
+
+header, footer{
+    border: 2px solid #2d3da7;
+}
+img.main-section-figure {
+    border-radius: 5px; 
+}
+
+figure#relative-path-image {
+    border: 2px solid rgb(87, 41, 179); 
+    border-radius: 10px; 
+}
+
+figure#absolute-path-image {
+    border: 2px solid rgb(0, 0, 255); 
+    border-radius: 10px; 
+}
+
+iframe, video {
+    border: 2px solid rgb(77, 45, 173); 
+    border-radius: 10px; 
+}
+
+blockquote#quote{
+    padding: 10px;
+}
+
+blockquote#quote q {
+    border: 2.5px solid #4d43d3; 
+    border-radius: 11px; 
+    box-shadow: 5px 5px 5px #6535d7; 
+}
+
+/* Nav links */
+nav ul {
+    list-style-type: none; /* remove bullet points */
+    text-decoration: none; /* remove text decoration */
+    font-weight: bold; /* change font weight */
+    font-style: italic; /* change font style */
+    font-variant: small-caps; /* change font variant */
+    color: white; /* change font color */
+    display: inline-block; /* make the links inline */
+    width: 50%; /* set width */
+    border: 1px solid white; /* add border */
+    padding: 10px; /* add padding */
+    margin: 10px; /* add margin */
+    background-color: white; /* set background color */
+}
+
+nav ul li a:hover {
+    color: black; /* change font color on hover */
+    background-color: white; /* change background color on hover */
+}
+
+/* Layout */
+body {
+    width: 70%; /* set width for body */
+}
+
+nav {
+    width: 50%; /* set width for nav */
+    float: left; /* float nav to the left */
+}
+
+main {
+    width: 70%; /* set width for main */
+    float: left; /* float main to the left */
+}
+
+aside {
+    width: 30%; /* set width for aside */
+    float: right; /* float aside to the right */
+}
+
+footer {
+    clear: both; /* clear floats */
+}
+
+/* Aside */
+aside h3 {
+    font-variant: small-caps; /* change font variant */
+    color: blue; /* change font color */
+    text-align: center; /* center alignment */
+}
+
+aside table {
+    border: 1px solid black; /* add borders */
+}
+
+aside table th, aside table td {
+    font-weight: bold; /* change font weight */
+    font-style: italic; /* change font style */
+    font-variant: small-caps; /* change font variant */
+    color: blue; /* change font color */
+    text-align: center; /* center alignment */
+}
+
+aside ul {
+    list-style-type: none; /* remove bullet points */
+    text-decoration: none; /* remove text decoration */
+    color: blue; /* change font color */
+    line-height: 1.6; /* increase line height */
+}
+/* Change the color of the link text when hovering */
+nav ul li a:hover {
+    color: red; /* change font color on hover */
+}
+
+/* Form CSS */
+form {
+    padding: 20px; /* add padding */
+    margin: 20px; /* add margin */
+}
+
+form label {
+    color: blue; /* change font color */
+    font-variant: small-caps; /* change font variant */
+    font-weight: bold; /* change font weight */
+    text-align: left; /* align text to the left */
+}
+
+form input, form select, form textarea {
+    height: 30px; /* set height */
+    width: 100%; /* set width */
+    text-align: left; /* align text to the left */
+    padding: 10px; /* add padding */
+    margin: 10px 0; /* add margin */
+}
+
+/* Responsive CSS */
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px; /* decrease font size */
+    }
+
+    nav, main, aside {
+        float: none; /* remove floats */
+        width: 100%; /* adjust width */
+    }
+
+    form input, form select, form textarea {
+        padding: 5px; /* adjust padding */
+        margin: 5px 0; /* adjust margin */
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 12px; /* decrease font size */
+    }
+
+    form input, form select, form textarea {
+        padding: 3px; /* adjust padding */
+        margin: 3px 0; /* adjust margin */
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 10px; /* decrease font size */
+    }
+
+    form input, form select, form textarea {
+        padding: 1px; /* adjust padding */
+        margin: 1px 0; /* adjust margin */
+    }
+}
